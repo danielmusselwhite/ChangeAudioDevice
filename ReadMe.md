@@ -9,5 +9,11 @@
 - Download the module and place it in your PowerShell Modules folder.
 
 ## Usage
+
+### Interactive
 - To change the default audio device, use the following command "ChangeAudioDevice.ps1" in PowerShell or simply double click the file.
 - You will then be given a list of your output audio devices, when prompted input the index of the one you wish to switch to.
+
+### Command Line Arguments
+- To change the default audio device, if you already know the index of the device you wish to switch to, use the following command "ChangeAudioDevice.ps1 -Index {number}" in PowerShell where {number} is the index of the audio device you wish to switch to.
+  - Example: 'ChangeAudioDevice.ps1 -Index 1'
