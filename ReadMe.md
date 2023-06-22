@@ -6,7 +6,8 @@
 
 
 ## Installation
-- Download the module and place it in your PowerShell Modules folder.
+- Download the module
+- (Optional) place it in your PowerShell Modules folder in the path so it is available globally/ you don't need to copy path to script to call it each time.
 
 ## Usage
 
